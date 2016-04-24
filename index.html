@@ -9,15 +9,19 @@
 </head>
 <body>
   <header class="header">
+    <h1 class="header">Bits and Bites</h1>
     <nav>
-      <h1>Bits and Bites</h1>
-      <ul>
-        <li><a href="">Menu</a></li>
-        <li><a href="">Our Story</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">Location</a></li>
+      <input type="checkbox" class="nav-check" id="nav-check">
+      <label class="nav-label" for="nav-check">
+        <img class="nav-open" src="images/nav-icon.svg" alt="Open Navigation">
+        <img class="nav-close" src="images/nav-icon-close.svg" alt="Close Navigation">
+      </label>
+      <ul class="nav">
+        <li class="navi"><a href="">Menu</a></li>
+        <li class="navi"><a href="">Our Story</a></li>
+        <li class="navi"><a href="">Contact</a></li>
+        <li class="navi"><a href="">Location</a></li>
       </ul>
-      <a class="side-nav" href=""><img class="side-menu" src="images/nav-icon.svg" alt=""></a>
     </nav>
   </header>
   <section class="banner">
@@ -25,7 +29,9 @@
     <div class="banner-content">
       <h2>Good Prices, Even Better Food</h2>
       <h3>Fresh Coffee Whenever You Need It</h3>
-      <li class="btn"><a class="call-to-action" href="">MENU</a></li>
+      <ul>
+        <li class="btn"><a class="call-to-action" href="">MENU</a></li>
+      </ul>
     </div>
   </section>
   <section class="link-cards">
@@ -34,7 +40,7 @@
       <div class="card-content">
         <h3>Menu</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis metus id lectus posuere condimentum.</p>
-        <a  class="card-btn" href="">Go</a>
+        <a class="card-btn" href="">Go</a>
       </div>
     </div>
     <div class="link-card">
