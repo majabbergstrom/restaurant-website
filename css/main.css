@@ -338,12 +338,12 @@ footer p {
   .nav a {
     background-color: #e3e3e3;
     display: inline;
-    padding-left: 1em;
     color: #000;
-    padding-right: 1em;
     float: right;
     margin: 0;
     padding: 0.25em;
+    padding-left: 1em;
+    padding-right: 1em;
     margin-top: -1.5em;
   }
 
