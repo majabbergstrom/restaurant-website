@@ -25,13 +25,17 @@ p {
   font-size: 1rem;
 }
 
+h1 {
+  color: #fff;
+}
+
 header {
   position: relative;
 }
 
 .header {
   margin: 0;
-  background-color: #e3e3e3;
+  background-color: #41251a;
 }
 
 a {
@@ -43,7 +47,7 @@ a {
   margin: 0;
   list-style-type: none;
   display: none;
-  background-color: #999;
+  background-color: #41251a;
 }
 
 .nav-check {
@@ -72,7 +76,7 @@ a {
 }
 
 .nav-check:checked ~ .nav-label {
-  background-color: #ccc;
+  background-color: #41251a;
 }
 
 .nav-close {
@@ -88,7 +92,7 @@ a {
 }
 
 .nav a:hover {
-  background-color: #444;
+  background-color: #906c56;
 }
 
 .banner {
@@ -135,14 +139,14 @@ img {
 
 .link-card {
   margin-top: -0.5em;
-  background-color: #888;
+  background-color: #906c56;
   color: #fff;
   padding: 1em;
   display: block;
 }
 
 .card-btn {
-  background-color: #444;
+  background-color: #41251a;
   padding: 0.5em;
   padding-left: 1em;
   padding-right: 1em;
@@ -209,13 +213,14 @@ img {
 }
 
 footer {
-  background-color: #e3e3e3;
-  font-size: 0.5rem;
+  background-color: #41251a;
   padding: 1em;
+  color: #fff;
 }
 
 footer p {
   max-width: 20em;
+  font-size: 0.5rem;
 }
 
 @media only screen and (min-width: 25em) {
@@ -262,7 +267,7 @@ footer p {
   }
 
   .nav a:hover {
-    background-color: #444;
+    background-color: #906c56;
   }
 
   .pizza {
@@ -300,10 +305,6 @@ footer p {
     width: 100%;
   }
 
-  .nav a:hover {
-    background-color: #444;
-  }
-
   .link-card {
     max-width: 25%;
     float: left;
@@ -337,7 +338,7 @@ footer p {
   }
 
   .nav {
-    background-color: #e3e3e3;
+    background-color: #41251a;
     display: inline;
     margin-right: 20em;
     padding: 0;
@@ -356,7 +357,7 @@ footer p {
 
   .nav a:hover {
     color: #fff;
-    background-color: #444;
+    background-color: #906c56;
   }
 
   h1 {
@@ -364,9 +365,9 @@ footer p {
   }
 
   .nav a {
-    background-color: #e3e3e3;
+    background-color: #41251a;
     display: inline;
-    color: #000;
+    color: #fff;
     float: right;
     margin: 0;
     padding: 0.25em;
@@ -400,13 +401,13 @@ footer p {
   .nav a {
     margin-top: -1.7em;
     padding-left: 1em;
-    color: #000;
+    color: #fff;
     padding-right: 1em;
   }
 
   .nav a:hover {
     color: #fff;
-    background-color: #444;
+    background-color: #906c56;
   }
 
 }
