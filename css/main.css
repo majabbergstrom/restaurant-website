@@ -55,6 +55,11 @@ a {
   top: -3em;
 }
 
+.menu p,
+.menu h3 {
+  color: #fff;
+}
+
 .nav-check:checked ~ .nav {
   display: block;
 }
@@ -106,6 +111,7 @@ a {
   margin-top: -1em;
   transform: translateX(0);
   width: 100%;
+  color: #fff;
 }
 
 .btn {
@@ -229,6 +235,12 @@ footer p {
     transform: translateX(0);
     transform: translateY(25%);
     width: 100%;
+    color: #fff;
+  }
+
+  .menu p,
+  .menu h3 {
+    color: #fff;
   }
 
   .btn {
@@ -249,6 +261,7 @@ footer p {
     transform: translateX(-5%);
     transform: translateY(50%);
     width: 100%;
+    color: #fff;
   }
 
   .btn {
@@ -268,6 +281,11 @@ footer p {
 
   .nav a:hover {
     background-color: #906c56;
+  }
+
+  .menu p,
+  .menu h3 {
+    color: #fff;
   }
 
   .pizza {
@@ -298,6 +316,7 @@ footer p {
     transform: translateX(-5%);
     transform: translateY(75%);
     width: 100%;
+    color: #fff;
   }
 
   .btn {
@@ -391,6 +410,7 @@ footer p {
     transform: translateX(-5%);
     transform: translateY(25%);
     width: 100%;
+    color: #fff;
   }
 
   .btn {
